@@ -474,7 +474,7 @@ header {
 
 .footer-menu nav ul li {
   list-style: none;
-  margin-right: 40px;
+  padding: 10px 20px;
 }
 
 .footer-menu nav ul a {
