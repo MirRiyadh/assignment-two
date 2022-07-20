@@ -134,6 +134,7 @@ header {
   .header-box {
     width: 95%;
     padding-bottom: 40px;
+    position: relative;
   }
   .header-details {
     width: 50%;
@@ -159,6 +160,13 @@ header {
 
   .header-image {
     padding-top: 30px;
+  }
+
+  .header-image img {
+    position: absolute;
+    top: 35;
+    right: -40px;
+    width: 460px;
   }
 }
 
