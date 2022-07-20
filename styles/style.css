@@ -77,9 +77,9 @@ header {
   width: 100%;
 }
 
-/* ----header section Finish------- */
+/* <<<<<----header section Finish------->>>> */
 
-/* ////----Media Query For Header part------//// */
+/* ******--Media Query For Header Start--****** */
 
 /* ----MOBILE------ */
 @media screen and (max-width: 576px) {
@@ -188,8 +188,9 @@ header {
     margin-bottom: 20px;
   }
 }
+/* ******--Media Query For Header Start--****** */
 
-/* <<<<<----Blog section Start------->>>> */
+/* <<<<<----Main/Blog section Start------->>>> */
 
 .blog {
   margin-bottom: 120px;
@@ -283,9 +284,9 @@ header {
 .view-all {
   display: none;
 }
+/* <<<<<----Main/Blog section Finish------->>>> */
 
-/* ////----Media Query For Blog part------//// */
-
+/* ******--Media Query For Main Section Start--****** */
 /* ----Extra-large Device------ */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
   .blog {
@@ -434,8 +435,9 @@ header {
     display: none;
   }
 }
+/* ******--Media Query For Main Section Finish--****** */
 
-/* <<<<<----Footer Start------->>>> */
+/* <<<<<----Foooter section Start------->>>> */
 
 .footer {
   background-color: #002244;
@@ -492,7 +494,9 @@ header {
   margin-right: 30px;
   font-size: 20px;
   color: #fff;
-}
+} /* <<<<<----Foooter section Finish------->>>> */
+
+/* ******--Media Query For Footer Section Start--****** */
 
 /* ----TABLET------ */
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -531,3 +535,4 @@ header {
     padding: 5px 0;
   }
 }
+/* ******--Media Query For Footer Section Finish--****** */
